@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студент кабинеті — EduCloud</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">☁️ EduCloud</div>
+    <div class="user">🎓 <span id="userName"></span> <button id="logoutBtn" class="btn small ghost">Шығу</button></div>
+  </header>
+
+  <main class="container">
+    <section class="stats">
+      <div class="stat"><b id="statTotal">0</b><span>Барлық тапсырма</span></div>
+      <div class="stat"><b id="statDone">0</b><span>Тапсырылды</span></div>
+      <div class="stat"><b id="statAvg">—</b><span>Орташа баға</span></div>
+    </section>
+
+    <section>
+      <h2>Тапсырмалар <span class="live">● нақты уақытта</span></h2>
+      <div id="assignmentsList" class="list"><p class="muted">Жүктелуде...</p></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/student.js"></script>
+</body>
+</html>

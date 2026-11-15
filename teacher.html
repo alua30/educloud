@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мұғалім кабинеті — EduCloud</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">☁️ EduCloud</div>
+    <div class="user">👩‍🏫 <span id="userName"></span> <button id="logoutBtn" class="btn small ghost">Шығу</button></div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Жаңа тапсырма қосу</h2>
+      <form id="assignmentForm" class="grid-form">
+        <label>Тақырыбы<input type="text" id="title" required></label>
+        <label>Пәні<input type="text" id="subject" placeholder="Мысалы: Информатика" required></label>
+        <label class="full">Сипаттамасы<textarea id="description" rows="3" required></textarea></label>
+        <label>Оқу материалына сілтеме (Google Drive, YouTube т.б.)<input type="url" id="link" placeholder="https://..."></label>
+        <label>Тапсыру мерзімі<input type="date" id="deadline" required></label>
+        <button type="submit" class="btn full">Бұлтқа жариялау</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Менің тапсырмаларым <span class="live">● нақты уақытта</span></h2>
+      <div id="assignmentsList" class="list"><p class="muted">Жүктелуде...</p></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/teacher.js"></script>
+</body>
+</html>
