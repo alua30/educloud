@@ -91,7 +91,26 @@ educloud/
 
 ## 📸 Скриншоттар
 
-*(docs/screenshots папкасына скриншоттарды салып, осында көрсетіңіз)*
+### Кіру беті
+![Кіру беті](docs/screenshots/01-login.png)
+
+### Тіркелу
+![Тіркелу](docs/screenshots/02-register.png)
+
+### Мұғалім кабинеті
+![Мұғалім кабинеті](docs/screenshots/03-teacher.png)
+
+### Студенттердің жауаптары және бағалау
+![Жауаптар](docs/screenshots/04-teacher-submissions.png)
+
+### Студент кабинеті
+![Студент кабинеті](docs/screenshots/05-student.png)
+
+### Firebase Firestore — бұлттағы деректер
+![Firestore](docs/screenshots/06-firestore.png)
+
+### Firebase Authentication — тіркелген пайдаланушылар
+![Authentication](docs/screenshots/07-auth-users.png)
 
 ## ✅ Қорытынды
 
